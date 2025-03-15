@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container for the content */
+.container {
+    width: 80%; /* Increase the width to 80% of the viewport width */
+    max-width: 800px; /* Limit the maximum width to 800px */
+    background-color: #ffffff; /* White background for clean look */
+    padding: 40px; /* Increase padding for a spacious feel */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4CAF50; /* Green border */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5rem; /* Bigger font for the heading */
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 15px; /* Increase padding */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #4CAF50;
+    font-size: 1.2rem; /* Increase font size for better readability */
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #388E3C;
+}
+
+button {
+    padding: 15px 25px; /* Larger button */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Larger font for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
+
+/* Styling for the result page */
+.result-container {
+    text-align: center;
+    font-size: 1.3rem; 
+}

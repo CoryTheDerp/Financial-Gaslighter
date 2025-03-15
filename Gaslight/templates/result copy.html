@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Financial Advice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container result-container cash-background">
+        <h1>Your Question: {{ balance }}</h1>
+        <p><strong>💸 {{ advice }}</strong></p>
+        <p><strong>💳  {{ advice }}</strong></p>
+        <a href="/">Try Again</a>
+    </div>
+</body>
+</html>
