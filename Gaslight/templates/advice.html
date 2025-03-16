@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Financial Advice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container result-container cash-background">
+        <h1>Your Question: {{ balance }}</h1>
+        <p><strong>💸 {{ advice }}</strong></p>
+        <p><strong>😎Think of how happy you would be!😎 {{ index }}</strong></p>
+        
+        <form action="/advice" method="post">
+            <input type="text" name="balance" placeholder="Ask for another advice" required>
+            <button type="submit">Get More Advice</button>
+        </form>
+        
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
