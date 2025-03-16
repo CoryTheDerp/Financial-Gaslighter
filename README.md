@@ -1,3 +1,3 @@
 # **FINANCIAL GASLIGHTER**
 
-**An app generates the best financial advice for all your problems! 😉😉😉**
+**😉😉😉 An app that'll generate the best financial advice for all your problems! 😉😉😉**
